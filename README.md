@@ -1,6 +1,8 @@
 # RASTRO VISUAL — News Display
 
 Editor local de presentaciones de prensa para televisiones y monitores. Permite preparar noticias en una mesa de montaje, emitir una copia independiente y descargar una vuelta completa de la presentación en vídeo.
+# ENLACE:
+https://s3gad3.github.io/visual
 
 ## Empezar en un minuto
 
