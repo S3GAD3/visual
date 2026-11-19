@@ -60,9 +60,6 @@ La salida a monitor y la exportación son independientes. El archivo resultante 
 
 Referencias técnicas: [MediaRecorder](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/isTypeSupported_static), [WebCodecs](https://developer.mozilla.org/en-US/docs/Web/API/WebCodecs_API), [FFmpeg.wasm](https://ffmpegwasm.netlify.app/docs/faq/).
 
-## GitHub Pages
-
-Crea el repositorio, por ejemplo rastro-visual, y coloca **el contenido de la carpeta** en la raíz de la rama main. En **Settings → Pages**, selecciona **Deploy from a branch**, rama **main**, carpeta **/(root)** y guarda. Conserva los nombres y sus mayúsculas. Cuando GitHub termine el despliegue, abre la dirección que muestra Pages. Las imágenes de trabajo se cargan desde el dispositivo del operador. Publicar el editor solo requiere los archivos incluidos en el ZIP.
 
 ## Verificación de esta entrega
 
