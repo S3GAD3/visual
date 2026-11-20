@@ -9,6 +9,8 @@ Editor local de presentaciones de prensa para televisiones y monitores. Permite 
 3. Pulsa ▶ y revisa los titulares. Arrastra las miniaturas en la línea de tiempo para ordenar la edición. Las flechas permiten mover el clip seleccionado con precisión.
 4. Usa **Guardar proyecto** para descargar una copia editable con sus imágenes, logotipo, música y ajustes. El archivo se abre desde **Abrir proyecto**. Cierra el editor después de guardar.
 
+## También puedes usar la herramienta online en el siguiente enlace: https://s3gad3.github.io/visual
+
 ## Encuadre automático de prensa
 
 Las nuevas imágenes se importan en **Automático · prensa**. El inspector indica las dimensiones de origen y si el resultado usa imagen completa, lectura vertical o lectura horizontal. Las decisiones dependen de la forma del recorte, el espacio que ocupa su título y la orientación de la presentación. Se usa una referencia Full HD para mantener las proporciones en la previsualización, la televisión y el vídeo 4K.
