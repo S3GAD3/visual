@@ -1,8 +1,6 @@
 # RASTRO VISUAL — News Display
 
 Editor local de presentaciones de prensa para televisiones y monitores. Permite preparar noticias en una mesa de montaje, emitir una copia independiente y descargar una vuelta completa de la presentación en vídeo.
-# ENLACE:
-https://s3gad3.github.io/visual
 
 ## Empezar en un minuto
 
@@ -10,6 +8,14 @@ https://s3gad3.github.io/visual
 2. Arrastra las noticias a **Importar imágenes**. Selecciona **Prensa** y pulsa **Montaje automático**. El orden inicial sigue la lista que entrega el selector de archivos.
 3. Pulsa ▶ y revisa los titulares. Arrastra las miniaturas en la línea de tiempo para ordenar la edición. Las flechas permiten mover el clip seleccionado con precisión.
 4. Usa **Guardar proyecto** para descargar una copia editable con sus imágenes, logotipo, música y ajustes. El archivo se abre desde **Abrir proyecto**. Cierra el editor después de guardar.
+
+## Encuadre automático de prensa
+
+Las nuevas imágenes se importan en **Automático · prensa**. El inspector indica las dimensiones de origen y si el resultado usa imagen completa, lectura vertical o lectura horizontal. Las decisiones dependen de la forma del recorte, el espacio que ocupa su título y la orientación de la presentación. Se usa una referencia Full HD para mantener las proporciones en la previsualización, la televisión y el vídeo 4K.
+
+El editor limita la ampliación de recortes pequeños a 1,5 veces su tamaño en la composición Full HD y centra la imagen sobre su fondo. Para páginas largas y panorámicas de alta resolución puede recorrer el texto desde el principio hasta el final, con pausas antes del movimiento y de la transición. El ajuste se basa en geometría y resolución; la aplicación no lee la noticia ni reconstruye letras borrosas.
+
+Para actualizar un proyecto anterior, ábrelo y pulsa **Ajustar todos los encuadres**. Esta acción conserva orden, títulos y transiciones y solo alarga los clips que requieren más tiempo de recorrido. Para una excepción, selecciona el clip y elige **Completa · proteger texto** o **Manual**. Guarda una copia del proyecto cuando termines.
 
 ## Editar el montaje
 
@@ -60,6 +66,9 @@ La salida a monitor y la exportación son independientes. El archivo resultante 
 
 Referencias técnicas: [MediaRecorder](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/isTypeSupported_static), [WebCodecs](https://developer.mozilla.org/en-US/docs/Web/API/WebCodecs_API), [FFmpeg.wasm](https://ffmpegwasm.netlify.app/docs/faq/).
 
+## GitHub Pages
+
+Crea el repositorio, por ejemplo rastro-visual, y coloca **el contenido de la carpeta** en la raíz de la rama main. En **Settings → Pages**, selecciona **Deploy from a branch**, rama **main**, carpeta **/(root)** y guarda. Conserva los nombres y sus mayúsculas. Cuando GitHub termine el despliegue, abre la dirección que muestra Pages. Las imágenes de trabajo se cargan desde el dispositivo del operador. Publicar el editor solo requiere los archivos incluidos en el ZIP.
 
 ## Verificación de esta entrega
 
